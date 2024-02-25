@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font favicon -->
+    <!-- <link rel="icon" href="images/favicon.png"> -->
+    <!-- bootstrap5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/3e56bd9026.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+        integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+    <!-- button navbar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- tooltip -->
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+    <link rel="stylesheet" href="challengne2.css">
+    <link rel="stylesheet" href="profil.css">
+    <link rel="stylesheet" href="loader.css">
+    <script src="../../bundle.js" defer></script>
+    <title>challengne 2</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row nav p-2 mt-md-0 d-flex justify-content-between align-items-center">
+            <div class="col-6 col-md-2 logo">
+                <button class="navbar-toggler me-5 " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <img src="image/mylogo.png" alt="">
+            </div>
+
+            <div class="col-12 col-md-2 search d-flex">
+                <i class="fa-solid fa-magnifying-glass mt-2"></i><input type="text" name="" id=""
+                    placeholder="Type in to saerch" class="ms-3 border-0">
+            </div>
+
+            <div class="col-12 col-md-5 mt-3 text-center calendrier">
+                <p class="ms-5">Home</span></p>
+                <p class="ms-5">Categories</span></p>
+                <p class="ms-5">Subscriptions</span></p>
+            </div>
+            <div class="col-6 col-md-2 d-flex flex-row compte">
+                <i class="fa-regular fa-bell mt-1 me-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"></i>
+
+                <img src="image/OIP.jpg" class="ProfilNav " alt="" />
+                <i class="fa-solid angle-down ms-5 mt-1 dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false"></i>
+            </div>
+
+            <div class="profil ms-3">
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="sidebar bg-light col-md-2 d-flex flex-column ">
+                <div class="scrollbox">
+                    <div class="scrollbox-inner">
+                        <ul class="nav-list">
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="fa-solid fa-house"></i>
+                                <span class="links_name">Home page</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="fa-solid fa-circle-user"></i>
+                                <span class="links_name">My channel</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="fa-solid fa-star"></i>
+                                <span class="links_name">Popular video</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="bi bi-collection-play-fill ms-3 me-3"></i>
+                                <span class="links_name">Subscriptions</span>
+
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <span class="links_name">History view</span>
+
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="links_name">Watch Later</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span class="links_name">Liked Videos</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="bi bi-music-note-list ms-3 me-3"></i>
+                                <span class="links_name">Playlistes</span>
+                            </li>
+                            <hr>
+                            <h4 class="fs-6 mb-3">Subscriptions</h4>
+                            <li class="text-dark fs-6 opacity-75">
+                                <img src="image/abd.jpg" class="myImage ms-3 me-3 mb-3" alt="">
+                                <span class="links_name">Abou Daillo</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <img src="image/santos.jpg" class="myImage ms-3 me-3 mb-3" alt="">
+                                <span class="links_name">Santos junior</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <img src="image/awa.jpg" class="myImage ms-3 me-3 mb-3" alt="">
+                                <span class="links_name">Awa n'diaye</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <img src="image/mouss.jpg" class="myImage ms-3 me-3 mb-3" alt="">
+                                <span class="links_name">Moussa Diatta</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <img src="image/lad.jpg" class="myImage ms-3 me-3 mb-3" alt="">
+                                <span class="links_name">Ladji tims</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <button class="rounded-pill ps-4 pe-4 pb-1 pt-1 ms-3 mt-2 border bg-white">Show
+                                    More</button>
+                            </li>
+                            <hr>
+
+                            <h4 class="fs-6 mb-3">Popular Channel</h4>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="bi bi-music-note ms-3 me-3"></i>
+                                <span class="links_name">Music channel</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="fa-solid fa-face-smile"></i>
+                                <span class="links_name">Baby channel</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="fa-solid fa-bicycle"></i>
+                                <span class="links_name">Motorcycle channel</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="fa-solid fa-face-grin-wide"></i>
+                                <span class="links_name">Humor channel</span>
+                            </li>
+                            <li class="text-dark fs-6 opacity-75">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span class="links_name">Bussines channel</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 patie2">
+                <div class="div-div"> </div>
+                <div class="card-group mt-5">
+                    <div class="card me-2">
+                        <iframe width="406" height="315" src="https://www.youtube.com/embed/8m3WbEwtOdY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">sia Ha yagou (audio officiel)</h5>
+                            <div class="d-flex">
+                                <img src="image/abd.jpg" alt="">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    <div class="card me-2">
+                        <iframe width="406" height="315" src="https://www.youtube.com/embed/M9-Rr7gk5cw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    <div class="card me-2">
+                        <iframe width="406" height="315" src="https://www.youtube.com/embed/M9-Rr7gk5cw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        </video>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="challengne2.js"></script>
+</body>
+
+</html>

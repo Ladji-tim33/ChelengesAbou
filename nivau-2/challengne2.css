@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #EFF2F6;
+}
+.nav {
+    position: fixed;
+    font-size: 18px;
+    z-index: 1;
+    border-bottom: 2px solid #ffffff7e;
+    background-color: #ffffff;
+    width: 100%;
+}
+.nav span{
+    font-weight: bold;
+}
+.calendrier{
+    display: flex;
+    flex-direction: row;
+}
+.calendrier i{
+    display: flex;
+    flex-direction: row;
+    color: #00E100;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+ 
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #495344;
+    border-radius: 10px;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* width: 250px; */
+    height: 100%;
+    padding: 16px 14px 37px 14px;
+    margin-top: 5%;
+}
+
+.scrollbox{
+    overflow: auto;
+}
+
+
+.sidebar i {
+    color: black;
+    border-radius: 12px;
+    height: 60px;
+    min-width: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.sidebar .nav-list {
+    margin-top: 8px;
+    height: 100%;
+    padding: 0;
+}
+
+.compte img{
+    width: 15%;
+    height: 5vh;
+    border-radius: 50%;
+}
+
+.myImage{
+    width: 15%;
+    height: 5vh;
+    border-radius: 50%;
+}
+
